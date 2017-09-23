@@ -1,10 +1,10 @@
-//
-//  ViewController.swift
-//  Simple Calculator
-//
-//  Created by Student on 2017-09-20.
-//  Copyright © 2017 Centennial College. All rights reserved.
-//
+/*
+ * ViewController.swift
+ * Project : Simple Calculator
+ * Name : Sumit Ganju
+ * Student ID : 300959971
+ * Version 0.1 : Built the Basic UI
+ */
 
 import UIKit
 
