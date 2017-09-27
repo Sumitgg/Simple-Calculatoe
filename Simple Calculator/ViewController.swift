@@ -3,7 +3,7 @@
  * Project : Simple Calculator
  * Name : Sumit Ganju
  * Student ID : 300959971
- * Version 0.1 : Built the Basic UI
+ * Version 0.1 : UI Controls & Connectivity
  */
 
 import UIKit
@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     var sign : String = ""
     var answer : Double = 0
 
-    @IBOutlet weak var Label: UILabel!
+    @IBOutlet weak var Label: UILabel! //Label that displays the result when the user wants an operation to work//
     
-    @IBAction func numbers(_ sender: UIButton) {
+    @IBAction func numbers(_ sender: UIButton) { //Action When the user taps anyone of the operation buttons//
         
         if answer == 0 {
             if Label.text == "+" {
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     
     }
     
-    @IBAction func Buttons(_ sender: UIButton) {
+    @IBAction func Buttons(_ sender: UIButton) {//Outlet where the dats is displayed when the user performs an operation either +,-,*,/ //
         
         if Label.text != ""
         {
